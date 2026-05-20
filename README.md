@@ -177,3 +177,10 @@ Full interactive API docs available at **http://localhost:8080/swagger-ui.html**
 - CORS is configured in `WebConfig.java` to allow requests from `http://localhost:5173`
 - The frontend uses Pinia stores to manage room and booking state globally
 - Swagger UI is available at `http://localhost:8080/swagger-ui.html` for API testing
+
+## Troubleshooting
+
+- **Backend won't start** — make sure MySQL is running and the database `room-booking-system_db` exists
+- **CORS errors in browser** — confirm the backend is running on port `8080` and frontend on port `5173`
+- **Slots not showing** — select both a room and a date first before choosing a time slot
+- **Port conflict** — change `server.port` in `application.properties` or `vite.config.js` if ports are in use
