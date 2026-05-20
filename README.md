@@ -99,3 +99,15 @@ mvnw.cmd spring-boot:run
 ```
 
 The backend starts on **http://localhost:8080**
+
+## Running the Frontend
+
+```bash
+cd FRONTEND
+npm install
+npm run dev
+```
+
+The frontend starts on **http://localhost:5173**
+
+> Make sure the backend is running first so API calls succeed.
