@@ -111,3 +111,25 @@ npm run dev
 The frontend starts on **http://localhost:5173**
 
 > Make sure the backend is running first so API calls succeed.
+
+## API Endpoints
+
+### Rooms — `/api/rooms`
+
+| Method | Endpoint        | Description       |
+|--------|-----------------|-------------------|
+| GET    | `/api/rooms`    | Get all rooms     |
+| GET    | `/api/rooms/{id}` | Get room by ID  |
+| POST   | `/api/rooms`    | Create a new room |
+| PUT    | `/api/rooms/{id}` | Update a room   |
+
+### Bookings — `/api/bookings`
+
+| Method | Endpoint             | Description          |
+|--------|----------------------|----------------------|
+| GET    | `/api/bookings`      | Get all bookings     |
+| POST   | `/api/bookings`      | Create a new booking |
+| PUT    | `/api/bookings/{id}` | Update a booking     |
+| DELETE | `/api/bookings/{id}` | Delete a booking     |
+
+Full interactive API docs available at **http://localhost:8080/swagger-ui.html**
