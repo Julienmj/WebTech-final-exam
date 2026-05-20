@@ -68,3 +68,20 @@ exam/
 - Maven (or use the included `mvnw` wrapper)
 - Node.js 18+ and npm
 - MySQL 8+
+
+## Database Setup
+
+Make sure MySQL is running, then create the database:
+
+```sql
+CREATE DATABASE `room-booking-system_db`;
+```
+
+The tables are created automatically by Hibernate on first run (`spring.jpa.hibernate.ddl-auto=update`).
+
+Default credentials in `application.properties`:
+- **URL:** `jdbc:mysql://localhost:3306/room-booking-system_db`
+- **Username:** `root`
+- **Password:** *(empty)*
+
+Update `src/main/resources/application.properties` if your MySQL credentials differ.
