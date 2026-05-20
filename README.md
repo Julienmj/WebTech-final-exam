@@ -166,3 +166,14 @@ Full interactive API docs available at **http://localhost:8080/swagger-ui.html**
 
 ### Database Verification
 ![Database](Screenshots/database%20verification.png)
+
+## Author
+
+**Julien MJ** — Web Technologies Final Exam Project
+
+## Notes
+
+- Available time slots: `08:00 - 10:00`, `10:00 - 12:00`, `14:00 - 16:00`
+- CORS is configured in `WebConfig.java` to allow requests from `http://localhost:5173`
+- The frontend uses Pinia stores to manage room and booking state globally
+- Swagger UI is available at `http://localhost:8080/swagger-ui.html` for API testing
