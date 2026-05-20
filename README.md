@@ -155,3 +155,14 @@ Full interactive API docs available at **http://localhost:8080/swagger-ui.html**
 | bookingDate | LocalDate | Date of the booking                |
 | timeSlot    | String    | One of 3 available time slots      |
 | release     | boolean   | Whether the booking is active      |
+
+## Screenshots
+
+### Frontend — Room & Booking UI
+![Frontend](Screenshots/frontend%20verification.png)
+
+### API Testing via Swagger
+![Swagger](Screenshots/API%20testing%20by%20swagger.png)
+
+### Database Verification
+![Database](Screenshots/database%20verification.png)
