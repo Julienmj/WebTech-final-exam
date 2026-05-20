@@ -133,3 +133,25 @@ The frontend starts on **http://localhost:5173**
 | DELETE | `/api/bookings/{id}` | Delete a booking     |
 
 Full interactive API docs available at **http://localhost:8080/swagger-ui.html**
+
+## Data Models
+
+### Room
+| Field        | Type    | Description                  |
+|--------------|---------|------------------------------|
+| id           | Long    | Auto-generated primary key   |
+| name         | String  | Room name (required)         |
+| capacity     | int     | Max number of people         |
+| location     | String  | Physical location            |
+| availability | boolean | True if room is available    |
+
+### Booking
+| Field       | Type      | Description                        |
+|-------------|-----------|------------------------------------|
+| id          | Long      | Auto-generated primary key         |
+| studentName | String    | Full name of the student (required)|
+| studentId   | String    | Student ID e.g. STU-001 (required) |
+| roomId      | Long      | Reference to the booked room       |
+| bookingDate | LocalDate | Date of the booking                |
+| timeSlot    | String    | One of 3 available time slots      |
+| release     | boolean   | Whether the booking is active      |
