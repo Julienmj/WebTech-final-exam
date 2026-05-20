@@ -28,3 +28,29 @@ A full-stack web application for managing study room bookings, built as a Web Te
 - View all existing bookings in a list
 - Update or delete bookings
 - REST API fully documented via Swagger UI
+
+## Project Structure
+
+```
+exam/
+├── src/main/java/julien/roombookingsystem/
+│   ├── config/         # CORS configuration (WebConfig)
+│   ├── controller/     # REST controllers (RoomController, BookingController)
+│   ├── model/          # JPA entities (Room, Booking)
+│   ├── repository/     # Spring Data JPA repositories
+│   ├── service/        # Service interfaces and implementations
+│   └── RoomBookingSystemApplication.java
+├── src/main/resources/
+│   └── application.properties
+├── FRONTEND/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── router/         # Vue Router config
+│   │   ├── services/       # Axios API service
+│   │   ├── stores/         # Pinia stores (roomStore, bookingStore)
+│   │   └── views/          # RoomsView, BookingView, BookingListView
+│   ├── index.html
+│   └── vite.config.js
+├── Screenshots/
+└── pom.xml
+```
