@@ -184,3 +184,7 @@ Full interactive API docs available at **http://localhost:8080/swagger-ui.html**
 - **CORS errors in browser** — confirm the backend is running on port `8080` and frontend on port `5173`
 - **Slots not showing** — select both a room and a date first before choosing a time slot
 - **Port conflict** — change `server.port` in `application.properties` or `vite.config.js` if ports are in use
+
+## License
+
+This project was developed for academic purposes as part of a Web Technologies final exam. Free to use for educational reference.
