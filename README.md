@@ -85,3 +85,17 @@ Default credentials in `application.properties`:
 - **Password:** *(empty)*
 
 Update `src/main/resources/application.properties` if your MySQL credentials differ.
+
+## Running the Backend
+
+```bash
+cd exam
+./mvnw spring-boot:run
+```
+
+On Windows:
+```bash
+mvnw.cmd spring-boot:run
+```
+
+The backend starts on **http://localhost:8080**
