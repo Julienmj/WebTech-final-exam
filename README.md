@@ -18,3 +18,13 @@ A full-stack web application for managing study room bookings, built as a Web Te
 - Vue Router 4
 - Axios
 - Tailwind CSS v4
+
+## Features
+
+- View all available study rooms with name, location, capacity, and availability status
+- Add new rooms via the UI
+- Book a room by selecting student name, student ID, date, room, and time slot
+- Time slot conflict prevention — already-booked slots are hidden automatically
+- View all existing bookings in a list
+- Update or delete bookings
+- REST API fully documented via Swagger UI
