@@ -54,3 +54,17 @@ exam/
 ├── Screenshots/
 └── pom.xml
 ```
+
+## Prerequisites
+
+- Java 23+
+- Maven (or use the included `mvnw` wrapper)
+- Node.js 18+ and npm
+- MySQL 8+
+
+## Prerequisites
+
+- Java 23+
+- Maven (or use the included `mvnw` wrapper)
+- Node.js 18+ and npm
+- MySQL 8+
